@@ -99,3 +99,5 @@ target/
 .*
 !/.gitignore
 /nbproject/
+bin/
+META-INF/MANIFEST.MF
