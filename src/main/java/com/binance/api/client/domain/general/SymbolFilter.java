@@ -41,6 +41,8 @@ import lombok.Data;
     @Type(value = MaxNumIcebergOrders.class, name = "MAX_NUM_ICEBERG_ORDERS"),
     @Type(value = MaxPositionFilter.class, name = "MAX_POSITION"),
     @Type(value = TrailingDeltaFilter.class, name = "TRAILING_DELTA"),
+    @Type(value = PercentPriceBySide.class, name = "PERCENT_PRICE_BY_SIDE"),
+    
 })
 @Data
 public abstract class SymbolFilter {
